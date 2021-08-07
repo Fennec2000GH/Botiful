@@ -1,4 +1,6 @@
 nltk
 spacy
 textblob
+tensorflow
+torch
 transformers
