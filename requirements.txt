@@ -1,5 +1,6 @@
 cassandra-driver
 google-cloud
+google-cloud-vision
 nltk
 numpy
 pandas
