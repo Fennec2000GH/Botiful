@@ -1,6 +1,7 @@
 nltk
 spacy
-textblob
 tensorflow
+termcolor
+textblob
 torch
 transformers
