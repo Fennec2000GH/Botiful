@@ -1,8 +1,13 @@
-function send() {
-    var message = document.querySelector("#message").value;
-    alert(message);
+var debug = true;
+var PORT = 5000;
 
-    // var chat = document.querySelector("#chat");
+async function send() {
+    var message = document.querySelector("#message").value;
+    if (debug) {
+        console.log(message);
+    }
+
+    var chat = document.querySelector("#chat");
     chat.innerHTML +=
         `
         <div class="card">
@@ -11,7 +16,7 @@ function send() {
                             </div>
         </div>
         `;
-    axios.post(`/message/${message}`)
+    await axios.post(`/message/${message}`)
         .then(response => {
             console.log(response);
         })
