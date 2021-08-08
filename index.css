@@ -18,11 +18,18 @@
     margin: 2%;
     width: 96%;
     position: relative;
+    padding: 20px;
 }
 
 #send {
-    z-index: 0;
+    z-index: 1;
+    display: block;
     width: 0;
+    border-radius: 50px;
+    margin: auto;
+    padding: 0;
+    margin-top: 20px;
+    /* width: 0;
     right: -71%;
-    position: relative;
+    position: relative; */
 }
