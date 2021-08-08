@@ -1,0 +1,24 @@
+#chat {
+    background-color: goldenrod;
+    color: black;
+    padding: 1%;
+    height: 100%;
+    width: 96%;
+    left: 2%;
+    position: relative;
+}
+
+#message {
+    background-color: white;
+    color: black;
+    margin: 2%;
+    width: 96%;
+    position: relative;
+}
+
+#send {
+    z-index: 0;
+    width: 0;
+    right: -71%;
+    position: relative;
+}
